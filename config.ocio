@@ -391,7 +391,7 @@ colorspaces:
     from_scene_reference: !<GroupTransform>
       children:
         - !<ColorSpaceTransform> {src: Linear CIE-XYZ I-E, dst: AgX Base}
-        - !<ColorSpaceTransform> {src: 2.2 EOTF Encoding, dst: Display P3 2.2}
+        - !<ColorSpaceTransform> {src: sRGB 2.2, dst: Display P3 2.2}
 
   - !<ColorSpace>
     name: AgX Base BT.2020
@@ -404,4 +404,4 @@ colorspaces:
     from_scene_reference: !<GroupTransform>
       children:
         - !<ColorSpaceTransform> {src: Linear CIE-XYZ I-E, dst: AgX Base}
-        - !<ColorSpaceTransform> {src: 2.2 EOTF Encoding, dst: BT.2020 2.4}
+        - !<ColorSpaceTransform> {src: sRGB 2.2, dst: BT.2020 2.4}
