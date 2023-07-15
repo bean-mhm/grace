@@ -1,4 +1,4 @@
-# 1. What grace Is
+# What grace Is
 
 🔮 grace is a small generic [OpenColorIO](https://opencolorio.org/) config for rendering, photography, and other stuff involving color management or tone mapping.
 
@@ -9,21 +9,21 @@
 
 ⚠️ grace is not a professional config, nor am I a professional!
 
-# 2. What grace Contains
+# What grace Contains
 
-## 🌀 Color Spaces
+### 🌀 Color Spaces
 - **XYZ Spaces**. Like `Linear CIE-XYZ I-E`.
 - **Linear Spaces**. Like `Linear BT.709 I-D65` and `Linear DCI-P3 I-D65`.
 - **Display Formats**. Like `sRGB 2.2` and `Display P3 2.2`.
 
-## 🎞️ View Transforms
+### 🎞️ View Transforms
 - [**flim**](https://github.com/bean-mhm/flim)
 - [**AgX**](https://github.com/sobotka/SB2383-Configuration-Generation)
 
-## 🧫 Working Space
+### 🧫 Working Space
 - As of now, grace uses `Linear BT.2020 I-E` as its working space (the `scene_linear` role).
 - Be careful not to directly copy and use RGB triplets that are intended to work in Rec.709 when the working space is BT.2020.
 - You can switch to `Linear BT.709 I-D65` (or anything else) as the working space by modifying the `scene_linear` space in `roles`.
 
-# 3. Where to find grace
-🔗 https://github.com/bean-mhm/grace
+# Where to find grace
+- 🔗 https://github.com/bean-mhm/grace
