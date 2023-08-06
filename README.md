@@ -12,9 +12,9 @@
 # What grace Contains
 
 ### 🌀 Color Spaces
-- **XYZ Spaces**. Like `Linear CIE-XYZ I-E`.
-- **Linear Spaces**. Like `Linear BT.709 I-D65` and `Linear DCI-P3 I-D65`.
-- **Display Formats**. Like `sRGB 2.2` and `Display P3 2.2`.
+- **XYZ Spaces**. Example: `Linear CIE-XYZ I-E`
+- **Linear Spaces**. Examples: `Linear BT.709 I-D65`, `Linear DCI-P3 I-D65`.
+- **Display Formats**. Examples: `sRGB 2.2`, `Display P3 2.2`.
 
 ### 🎞️ View Transforms
 - [**flim**](https://github.com/bean-mhm/flim)
