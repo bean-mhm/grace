@@ -1,6 +1,6 @@
 # What grace Is
 
-🔮 grace is a small generic [OpenColorIO](https://opencolorio.org/) config for rendering, photography, and other stuff involving color management or tone mapping.
+🔮 grace (stylized as lowercase) is a small generic [OpenColorIO](https://opencolorio.org/) config for rendering, photography, and other stuff involving color management or tone mapping.
 
 🧪 grace is a personalized combination of several OCIO configs and view transforms:
 - [Troy Sobotka's new AgX](https://github.com/sobotka/SB2383-Configuration-Generation)
@@ -27,3 +27,10 @@
 
 # Where to find grace
 - 🔗 https://github.com/bean-mhm/grace
+
+# How to use grace
+
+Make sure your DCC (Digital Content Creation) software supports [OpenColorIO](https://opencolorio.org/) for color management
+and look up how you can switch the OCIO config. In [Blender](https://www.blender.org/), for example, you can swap the contents of the `colormanagement` folder with the contents of the config you want to use, after making a backup of Blender's default config.
+
+> `[Blender Installation Path]/X.X/datafiles/colormanagement`
